@@ -1,0 +1,9 @@
+data/all_data/
+.ipynb_checkpoints/
+preprocessing/DA
+*.ipynb_checkpoints/
+preprocessing/.ipynb_checkpoints/
+data/trial_data/
+data/cleaned_trial_data/
+data/cleaned_all_data/
+data/__pycache__
