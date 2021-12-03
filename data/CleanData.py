@@ -41,7 +41,7 @@ def crop_image(median_blur):
 
 
 def resize_image(roi):
-    img = cv2.resize(roi, (256, 128), interpolation=cv2.INTER_AREA)
+    img = cv2.resize(roi, (512, 256), interpolation=cv2.INTER_AREA)
     return img
 
 
