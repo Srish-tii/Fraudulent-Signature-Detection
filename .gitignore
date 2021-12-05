@@ -7,3 +7,4 @@ data/trial_data/
 data/cleaned_trial_data/
 data/cleaned_all_data/
 data/__pycache__
+model/saved_models
