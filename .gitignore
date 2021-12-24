@@ -6,6 +6,7 @@ preprocessing/.ipynb_checkpoints/
 data/trial_data/
 data/cleaned_trial_data/
 data/cleaned_all_data/
+data/cleaned_data_individual/
 data/__pycache__
 model/saved_models
 data/data_individual
