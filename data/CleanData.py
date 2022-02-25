@@ -42,6 +42,7 @@ def crop_image(median_blur):
 
 def resize_image(roi):
     img = cv2.resize(roi, (512, 256), interpolation=cv2.INTER_AREA)
+    img = cv2.bitwise_not(img)
     return img
 
 
@@ -50,5 +51,7 @@ def process_image(path):
     cleaned_image = remove_noise(image)
     cropped_image = crop_image(cleaned_image)
     resized_image = resize_image(cropped_image)
+    backtorgb = cv2.cvtColor(resized_image,cv2.COLOR_GRAY2RGB)
     
-    return resized_image
+    
+    return backtorgb
